@@ -1,0 +1,55 @@
+#banner {
+    height: 500px;
+    position: relative;
+}
+
+#banner>ul {
+    list-style: none;
+    height: 100%;
+    width: 100%;
+}
+
+#banner>ul>li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#banner>ul>li:nth-child(1) {
+    background: url("../image/carousel/carousel1.jpg") no-repeat 0 0/100% 100%;
+    display: block;
+}
+
+#banner>ul>li:nth-child(2) {
+    background: url("../image/carousel/carousel2.jpg") no-repeat 0 0/100% 100%;
+}
+#banner>ul>li:nth-child(3) {
+    background: url("../image/carousel/carousel3.jpg") no-repeat 0 0/100% 100%;
+}
+
+#banner>ol {
+    display: flex;
+    width: 50px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    margin-left: -20px;
+    list-style: none;
+}
+
+#banner>ol>li {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+}
+
+#banner>ol>li.current {
+    background-color: #0ff;
+}

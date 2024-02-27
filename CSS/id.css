@@ -1,0 +1,33 @@
+#all>table{
+    background-color: #eee;
+    margin:0 auto;
+    width: 750px;
+    color: #000;
+    font-size: 20px;
+}
+.title{
+    background-color: #0ff;
+}
+.text{
+    width: 400px;
+}
+#all>table img{
+    height: 500px;
+    width: 350px;
+}
+#good {
+    width: 150px;
+    background-image: linear-gradient(90deg, #0ff, #fff);
+}
+#wolf {
+    width: 150px;
+    background-image: linear-gradient(90deg, #f00, #fff);
+}
+#unknow {
+    width: 150px;
+    background-image: linear-gradient(90deg, #fa0, #fff);
+}
+.block{
+    cursor: pointer;
+    width: 200px;
+}

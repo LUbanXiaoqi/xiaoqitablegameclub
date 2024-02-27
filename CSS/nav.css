@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    position: relative;   
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+}
+nav>ul>li{
+    width: 100px;
+    text-align: center;
+    border-right: 1px solid white;
+    position: relative;
+}
+nav>ul>li>a:link{
+    color: #fff;
+    text-decoration: none;
+}
+nav>ul>li>a:visited{
+    color: #fff;
+}
+nav>ul>li:hover{
+    background-color: #aaa;
+}
+nav>ul>#now{
+    background-color: #aaa;
+}
+#join>div{
+    display: none;
+    position: absolute;
+    background-color: #eee;
+    color: #000;
+    z-index: 99;
+}
+#join:hover>div{
+    display: block;
+}

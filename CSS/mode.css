@@ -1,0 +1,52 @@
+    #all{
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+    font-size: 20px;
+    width: 600px;
+}
+#hide{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: absolute;
+    color: #fff;
+}
+#hide>table{
+    width: 1500px;
+    height: 768px;
+}
+#id{
+    width: 540px;
+    height: 768px;
+}
+img{
+    width: 200px;
+    height:200px;
+}
+#tips{
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: left;
+    font-size: 20px;
+    width: 500px;
+}
+.title{
+    background-color: aqua;
+    color: #000;
+}
+.text{
+    text-align: left;
+}
+#close{
+    margin-left: 1000px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.block{
+    cursor: pointer;
+}
