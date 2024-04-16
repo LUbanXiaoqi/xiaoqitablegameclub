@@ -15,9 +15,13 @@
     height: 500px;
     width: 350px;
 }
-#good {
+#god {
     width: 150px;
     background-image: linear-gradient(90deg, #0ff, #fff);
+}
+#villagers{
+    width: 150px;
+    background-image: linear-gradient(90deg,#0f0,#fff);
 }
 #wolf {
     width: 150px;
