@@ -33,6 +33,7 @@ nav>ul>li>a:visited {
 
 nav>ul>li:hover {
     background-color: #aaa;
+    cursor: pointer;
 }
 
 nav>ul>#now {
