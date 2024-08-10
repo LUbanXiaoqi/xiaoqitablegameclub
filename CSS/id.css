@@ -1,7 +1,7 @@
 #all>table{
     background-color: #eee;
     margin:0 auto;
-    width: 750px;
+    width: 1000px;
     color: #000;
     font-size: 20px;
 }
@@ -9,7 +9,7 @@
     background-color: #0ff;
 }
 .text{
-    width: 400px;
+    width: 650px;
 }
 #all>table img{
     height: 500px;
