@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6人双身份</title>
+    <link rel="stylesheet" href="../../CSS/nav.css">
+    <link rel="stylesheet" href="../../CSS/mode.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../../index.html">首页</a></li>
+            <li><a href="../term.html">术语说明</a></li>
+            <li><a href="../rank.html" style="color: #ff0;">排位手册</a></li>
+            <li id="now"><a href="../mode.html">版型说明</a></li>
+            <li><a href="../id.html">身份说明</a></li>
+            <li id="notebook">
+                更新日志
+                <ol>
+                </ol>
+            </li>
+            <li id="join">
+                <a>加入我们</a>
+                <div>
+                    <table>
+                        <tr>
+                            <td><img src="../../image/01.png" alt=""></td>
+                            <td><img src="../../image/02.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>《小七桌游俱乐部》官方Q群</td>
+                            <td>合作Q群：《大眼萌狼》</td>
+                        </tr>
+                    </table> 
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div id="all">
+        <div id="hide">
+            <table>
+                <tr>
+                    <td colspan="2"></td>
+                    <td><img src="../../image/close.png" alt=""  id="close"></td>
+                </tr>
+                <tr>
+                    <td rowspan="6"><img src="../../image/id/random.jpg" alt="" id="id"></td>
+                    <td colspan="2" class="text title">目的：</td>
+                </tr>
+                <tr>
+                    <td id="poor1" colspan="2" class="text"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text title">技能：</td>
+                </tr>
+                <tr>
+                    <td id="poor2" colspan="2" class="text"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text title">tips：</td>
+                </tr>
+                <tr>
+                    <td id="poor3" colspan="2" class="text"></td>
+                </tr>
+            </table>
+        </div>
+        <h1>6人双身份</h1>
+        <table>
+            <tr>
+                <td><img src="../../image/id-block/wolf_block.jpg" alt="狼人" class="block" id="wolf"></td>
+                <td><img src="../../image/id-block/hide_block.jpg" alt="隐狼" class="block" id="hidewolf"></td>
+                <td><img src="../../image/id-block/villagerx5_block.jpg" alt="平民x5" class="block" id="villager"></td>
+                <td><img src="../../image/id-block/seer_block.jpg" alt="预言家" class="block" id="seer"></td>
+                <td><img src="../../image/id-block/witch_block.jpg" alt="女巫" class="block" id="witch"></td>
+            </tr>
+            <tr>
+                <td><img src="../../image/id-block/hunter_block.jpg" alt="猎人" class="block" id="hunter"></td>
+                <td><img src="../../image/id-block/guard_block.jpg" alt="守卫" class="block" id="guard"></td>
+                <td><img src="../../image/id-block/robber_block.jpg" alt="盗贼" class="block" id="robber"></td>
+                <td colspan="2"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>【狼队胜利条件】</td>
+                <td>屠边·所有好人神职玩家或所以金宝宝玩家全出局</td>
+            </tr>
+            <tr>
+                <td>【预言查验规则】</td>
+                <td>查验双狼牌两层身份都会显示【好人】</td>
+            </tr>
+            <tr>
+                <td>【女巫规则】</td>
+                <td>女巫全程不可自救</td>
+            </tr>
+            <tr>
+                <td>【出局规则】</td>
+                <td>出局后不会亮出身份</td>
+            </tr>
+        </table>
+        <div id="tips">
+            tips：<br>
+            1、猎人如果被女巫毒杀或作为最后一神出局，则无法发动技能<br>
+            2、本版型中，金宝宝无法看到队友<br>
+            3、如果牌型为“守卫”+“盗贼”，如果“守卫”出局，则盗贼可以守护上一晚守护的目标
+        </div>
+        <script src="../../JS/jQuery/jquery-3.7.1.js"></script>
+        <script src="../../JS/mode/double.js"></script>
+        <script src="../../JS/data.js"></script>
+    </div>
+</body>
+</html>
