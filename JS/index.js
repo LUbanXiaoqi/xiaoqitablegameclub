@@ -26,3 +26,9 @@ $(function () {
         $("#banner>ul>li").eq(index).stop().fadeIn(500).siblings().stop().fadeOut(500);
     }
 });
+$(()=>{
+    var pw = $(window).width();
+    if(pw <= 1349){   
+        window.open("phone/index.html")
+    }
+})
