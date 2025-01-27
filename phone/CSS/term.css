@@ -1,0 +1,12 @@
+div{
+    width: 100%;
+    background: url(../../image/phone.png) no-repeat 0 0/100%;
+    font-style: 20px;
+    color: #f00;
+}
+.now{
+    display: block;
+}
+.nex{
+    display: none;
+}

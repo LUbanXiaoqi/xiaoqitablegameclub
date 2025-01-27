@@ -1,0 +1,11 @@
+table{
+    width: 100%;
+    background: url(../../image/phone.png) no-repeat 0 0/100%;
+}
+table tr span{
+    font-size: 20px;
+    color: #f00;
+}
+table tr img{
+    width: 180px;
+}

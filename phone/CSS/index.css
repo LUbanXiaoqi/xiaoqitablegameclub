@@ -1,0 +1,17 @@
+#all{
+    background: url(../../image/phone.png) no-repeat 0 0/100%;
+    font-style: 20px;
+    color: #f00;
+}
+#all>h1{
+    color: #fff;
+}
+#all img{
+    width:19%;
+}
+#all h1{
+    color: #fff;
+}
+.button{
+    width: 30%;
+}
