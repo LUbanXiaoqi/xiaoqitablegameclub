@@ -9,11 +9,11 @@ nav{
 }
 nav>#logo{
     height: 100%;
-    width: 300px;
+    width: 75%;
 }
 nav>#menu{
     height: 100%;
-    width: 75px;
+    width: 25%;
     float: right;
 }
 nav>ul{
