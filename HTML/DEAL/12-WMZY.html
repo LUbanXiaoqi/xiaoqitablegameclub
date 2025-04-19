@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12人无目之夜</title>
+    <style>
+        * {
+            background-color: #000;
+            text-align: center;
+        }
+        h1 {
+            color: #ff0;
+        }
+        img {
+            width: 200px;
+            height: 300px;
+        }
+        .player {
+            width: 200px;
+            text-align: center;
+            display: inline-block;
+            font-size: 20px;
+            color: #0ff;
+        }
+        #go {
+            background-color: #0f0;
+            font-size: 30px;
+            border-radius: 30px;
+            color: #f00;
+        }
+        #index {
+            background-color: #0ff;
+            border-radius: 20px;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="../../index.html"><button id="index">返回主页</button></a>
+    <h1>手机版请横屏使用（你现在使用的是12人无目之夜发牌器）</h1>
+    <div id="row">
+        <div class="player">1</div>
+        <div class="player">2</div>
+        <div class="player">3</div>
+        <div class="player">4</div>
+        <div class="player">5</div>
+        <div class="player">6</div><br>
+        <img src="../../image/id/random.jpg" alt="">
+        <img src="../../image/id/random.jpg" alt="">
+        <img src="../../image/id/random.jpg" alt="">
+        <img src="../../image/id/random.jpg" alt="">
+        <img src="../../image/id/random.jpg" alt="">
+        <img src="../../image/id/random.jpg" alt=""><br>
+        <div class="player">7</div>
+        <div class="player">8</div>
+        <div class="player">9</div>
+        <div class="player">10</div>
+        <div class="player">11</div>
+        <div class="player">12</div><br>
+        <img src="../../image/id/random.jpg" alt="">
+        <img src="../../image/id/random.jpg" alt="">
+        <img src="../../image/id/random.jpg" alt="">
+        <img src="../../image/id/random.jpg" alt="">
+        <img src="../../image/id/random.jpg" alt="">
+        <img src="../../image/id/random.jpg" alt=""><br>
+    </div>
+    <button id="go">开始分发身份(12人无目之夜)</button>
+    <script src="../../JS/jQuery/jquery-3.7.1.min.js"></script>
+    <script>
+        $(() => {
+            var pw = $(window).width();
+            if (pw <= 1349) {
+                $("#row > img").css({
+                    "width": "75px",
+                    "height": "122.5px"
+                });
+                $(".player").css({
+                    "width": "75px"
+                })
+            };
+            $("#go").click(() => {
+                var villager = 0
+                var wolf = 0
+                var seer = 0
+                var witch = 0
+                var hunter = 0
+                var dream = 0
+                var hide = 0
+                var claw = 0
+                var gargoyle = 0
+                var i = 0
+                while (i < 12) {
+                    var id = Number(Math.floor(Math.random() * (10 - 1) + 1));
+                    if (id == 1 && seer == 0) {
+                        $("#row > img").eq(i).attr("src", "../../image/id/seer.jpg")
+                        seer++
+                        i++
+                    } else if (id == 2 && witch == 0) {
+                        $("#row > img").eq(i).attr("src", "../../image/id/witch.jpg")
+                        witch++
+                        i++
+                    } else if (id == 3 && hunter == 0) {
+                        $("#row > img").eq(i).attr("src", "../../image/id/hunter.jpg")
+                        hunter++
+                        i++
+                    } else if (id == 4 && dream == 0) {
+                        $("#row > img").eq(i).attr("src", "../../image/id/dream.jpg")
+                        dream++
+                        i++
+                    } else if (id == 5 && hide == 0) {
+                        $("#row > img").eq(i).attr("src", "../../image/id/hide.jpg")
+                        hide++
+                        i++
+                    } else if (id == 6 && wolf == 0) {
+                        $("#row > img").eq(i).attr("src", "../../image/id/wolf.jpg")
+                        wolf++
+                        i++
+                    } else if (id == 7 && claw == 0) {
+                        $("#row > img").eq(i).attr("src", "../../image/id/claw.jpg")
+                        claw++
+                        i++
+                    }else if (id == 8 && gargoyle == 0) {
+                        $("#row > img").eq(i).attr("src", "../../image/id/gargoyle.jpg")
+                        gargoyle++
+                        i++
+                    }else if (id == 9 && villager < 4) {
+                        $("#row > img").eq(i).attr("src", "../../image/id/villager.jpg")
+                        villager++
+                        i++
+                    }
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>
