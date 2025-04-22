@@ -9,3 +9,6 @@ table tr span{
 table tr img{
     width: 180px;
 }
+.nex,.gonow{
+    display: none;
+}
