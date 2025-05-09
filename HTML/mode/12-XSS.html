@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>12人混血少年</title>
+    <title>12人驯兽师</title>
     <link rel="stylesheet" href="../../CSS/nav.css">
     <link rel="stylesheet" href="../../CSS/mode.css">
 </head>
+
 <body>
     <nav>
         <ul>
@@ -15,7 +17,7 @@
             <li><a href="../rank.html" style="color: #ff0;">排位手册</a></li>
             <li id="now"><a href="../mode.html">版型说明</a></li>
             <li><a href="../id.html">身份说明</a></li>
-            <li>暂无发牌器</li>
+            <li><a href="../DEAL/12-XXS.html" style="color: #0f0;">发牌器</a></li>
             <li id="notebook">
                 更新日志
                 <ol>
@@ -47,7 +49,7 @@
             <table>
                 <tr>
                     <td colspan="2"></td>
-                    <td><img src="../../image/close.png" alt=""  id="close"></td>
+                    <td><img src="../../image/close.png" alt="" id="close"></td>
                 </tr>
                 <tr>
                     <td rowspan="6"><img src="../../image/id/random.jpg" alt="" id="id"></td>
@@ -70,20 +72,20 @@
                 </tr>
             </table>
         </div>
-        <h1>12人混血少年</h1>
+        <h1>12人驯兽师</h1>
         <table>
             <tr>
-                <td><img src="../../image/id-block/wolfx3_block.jpg" alt="狼人x3" class="block" id="wolf"></td>
-                <td><img src="../../image/id-block/FL_block.jpg" alt="狼之初恋" class="block" id="fristlove"></td>
-                <td><img src="../../image/id-block/villagerx3_block.jpg" alt="平民x3" class="block" id="villager"></td>
-                <td><img src="../../image/id-block/MB_block.jpg" alt="混血少年" class="block" id="mixedblood"></td>
-                <td><img src="../../image/id-block/seer_block.jpg" alt="预言家" class="block" id="seer"></td>
+                <td><img src="../../image/id-block/wolfwitch_block.jpg" alt="狼巫" class="block" id="wolfwitch"></td>
+                <td><img src="../../image/id-block/gargoyle_block.jpg" alt="石像鬼" class="block" id="gargoyle"></td>
+                <td><img src="../../image/id-block/robot_block.jpg" alt="机械狼" class="block" id="robot"></td>
+                <td><img src="../../image/id-block/sniper_block.jpg" alt="狙击手" class="block" id="sniper"></td>
+                <td><img src="../../image/id-block/perfumer_block.jpg" alt="寻香魅影" class="block" id="perfumer"></td>
             </tr>
             <tr>
+                <td><img src="../../image/id-block/villagerx4_block.jpg" alt="平民x4" class="block" id="villagerx4"></td>
+                <td><img src="../../image/id-block/seer_block.jpg" alt="预言家" class="block" id="seer"></td>
                 <td><img src="../../image/id-block/witch_block.jpg" alt="女巫" class="block" id="witch"></td>
-                <td><img src="../../image/id-block/PAB_block.jpg" alt="蛊惑师" class="block" id="pab"></td>
-                <td><img src="../../image/id-block/dancer_block.jpg" alt="舞者" class="block" id="dancer"></td>
-                <td colspan="2"></td>
+                <td><img src="../../image/id-block/trainer_block.jpg" alt="驯兽师" class="block" id="trainer"></td>
             </tr>
         </table>
         <table>
@@ -93,7 +95,7 @@
             </tr>
             <tr>
                 <td>【警长规则】</td>
-                <td>有警长·双狼炸警徽</td>
+                <td>有警长·本版型无法达成双爆吞警徽</td>
             </tr>
             <tr>
                 <td>【女巫规则】</td>
@@ -106,17 +108,19 @@
         </table>
         <div id="tips">
             tips：<br>
-            1、如果蛊惑师蛊惑了狼之初恋，且狼之初恋选择了蛊惑师为初恋，那么蛊惑师和狼之初恋一起直接出局<br>
-            2、如果蛊惑师蛊惑了狼之初恋，但狼之初恋没有选择蛊惑师为初恋，那么蛊惑师直接出局<br>
-            3、如果狼之初恋选择了蛊惑师为初恋，但蛊惑师没有蛊惑狼之初恋，那么狼之初恋直接出局<br>
-            4、如果混血少年触发了翻牌，则触发当日狼队无法自爆<br>
-            5、如果混血少年选择的狼人死在夜晚，则白天在公布死讯后被选择的狼人和混血少年仍然翻牌<br>
-            6、如果混血少年选择到狼人之后在当夜出局，无需翻牌<br>
-            7、如果舞者选择了混血少年，则混血少年按照好人阵营结算
+            1、如果机械狼学习好人，则驯兽师驯化机械狼显示【驯化成功】，而机械狼则保留学习到的技能<br>
+            2、如果机械狼学习驯兽师，则机械狼免疫【驯化】，驯兽师驯化机械狼显示【驯化失败】<br>
+            3、如果预言家查验被驯化的玩家，依旧显示【狼人】<br>
+            4、好人要获得胜利无需出局被驯化的狼人玩家<br>
+            5、狼人要通过屠神胜利需要出局被驯化的狼人玩家<br>
+            6、由于版型的特殊性，除狼巫外，其他狼队阵营带刀条件变为场上剩余最后两狼时，且相互见面<br>
+            7、被驯化的懒人玩家不被计入场上剩余狼人数量<br>
+            8、如果狙击手被驯化，则狙击手将不能猜测好人身份
         </div>
         <script src="../../JS/jQuery/jquery-3.7.1.js"></script>
         <script src="../../JS/in_mode.js"></script>
         <script src="../../JS/data.js"></script>
     </div>
 </body>
+
 </html>
